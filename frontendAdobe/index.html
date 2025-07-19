@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Call PHP File</title> 
+</head> 
+<body> 
+ 
+    <form action="getips_nmap.php" method="get"> 
+        <button type="submit">Get ALL IPs from nmap</button> 
+    </form> 
+
+    <form action="getips_db.php" method="get"> 
+        <button type="submit">Get ALL IPs from dbas</button> 
+    </form> 
+ 
+ 
+    <form action="insert_record_db.php" method="post"> 
+        <input type="text" name="ipaddress" placeholder="Reserved IP Address"> 
+        <button type="submit">Submit</button> 
+    </form> 
+
+</body> 
+</html> 
+
